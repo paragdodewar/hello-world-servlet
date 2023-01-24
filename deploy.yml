@@ -26,6 +26,6 @@
   - name: Deploy War File
     get_url:
        url: http://18.117.9.217:8081/#browse/browse:maven-releases:com%2Fgeekcap%2Fvmturbo%2Fhello-world-servlet-example%2F28%2Fhello-world-servlet-example-28.war
-       dest: /usr/share/tomcat/webapps/hello-world-servlet-example.war
+       dest: /usr/share/tomcat/webapps/hello-world-servlet-example-28.war
   - name: Start Tomcat
     service: name=tomcat state=started
